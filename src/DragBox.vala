@@ -115,9 +115,9 @@ public class Balistica.DragBox : Gtk.Box {
 	  this.rad_g1.active = true ;
 	  this.rad_s10.active = true ;
 	  this.results_list = new Gtk.ListStore (8, typeof (int), typeof (double),
-											 typeof (double), typeof (double),
-											 typeof (double), typeof (double),
-											 typeof (double), typeof (double)) ;
+						 typeof (double), typeof (double),
+						 typeof (double), typeof (double),
+						 typeof (double), typeof (double)) ;
 
 	  Gtk.CellRendererText cell = new Gtk.CellRendererText () ;
 	  this.results_tree.insert_column_with_attributes (-1, _("Range"), cell, "text", 0) ;
@@ -315,12 +315,12 @@ public class Balistica.DragBox : Gtk.Box {
 
 	  // Create a save as dialog
 	  Gtk.FileChooserDialog save_dialog = new Gtk.FileChooserDialog (_("Save As"),
-																	 this.main_window as Gtk.Window,
-																	 Gtk.FileChooserAction.SAVE,
-																	 _("Cancel"),
-																	 Gtk.ResponseType.CANCEL,
-																	 _("Save"),
-																	 Gtk.ResponseType.ACCEPT) ;
+                                                                         this.main_window as Gtk.Window,
+                                                                         Gtk.FileChooserAction.SAVE,
+                                                                         _("Cancel"),
+                                                                         Gtk.ResponseType.CANCEL,
+                                                                         _("Save"),
+                                                                         Gtk.ResponseType.ACCEPT) ;
 
 	  save_dialog.set_default_response (Gtk.ResponseType.ACCEPT) ;
 	  save_dialog.select_multiple = false ;

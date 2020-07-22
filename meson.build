@@ -22,7 +22,6 @@ global_c_args = []
 test_c_args = [
   '-Wcast-align',
   '-Wdeclaration-after-statement',
-  '-Wformat-nonliteral',
   '-Wformat-security',
   '-Wmissing-include-dirs',
   '-Wnested-externs',
