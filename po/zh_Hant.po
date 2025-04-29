@@ -2,13 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the balistica package.
 # hsu zangmen <chzang55@gmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: balistica\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 08:37-0300\n"
 "PO-Revision-Date: 2025-04-29 00:39+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "translate.fedoraproject.org/projects/balistica/master/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -77,7 +79,7 @@ msgstr "風向 MOA"
 
 #: src/DragBox.vala:130
 msgid "Time"
-msgstr ""
+msgstr "時間"
 
 #. Name used to store the calculation
 #. Ballistic cofficient
@@ -125,11 +127,11 @@ msgstr "另存新檔"
 
 #: src/DragBox.vala:320
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/DragBox.vala:322
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: src/DragBox.vala:355
 msgid "Failed to overwrite existing file"
@@ -293,7 +295,7 @@ msgstr "選擇(S_)"
 
 #: ui/drag.glade:64
 msgid "Name:"
-msgstr ""
+msgstr "名稱："
 
 #: ui/drag.glade:104
 msgid "Solve"
@@ -301,7 +303,7 @@ msgstr "解決"
 
 #: ui/drag.glade:120 ui/pbr.glade:53 ui/stability.glade:188 ui/twist.glade:330
 msgid "Reset"
-msgstr ""
+msgstr "重新設置"
 
 #: ui/drag.glade:133
 msgid "Example"
@@ -477,11 +479,11 @@ msgstr "檢視記錄檔"
 
 #: ui/menu.ui:17
 msgid "Help"
-msgstr ""
+msgstr "協助"
 
 #: ui/menu.ui:22
 msgid "About"
-msgstr ""
+msgstr "關於"
 
 #: ui/menu.ui:26
 msgid "Quit"
