@@ -1,0 +1,534 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the balistica package.
+# hsu zangmen <chzang55@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: balistica\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-17 08:37-0300\n"
+"PO-Revision-Date: 2025-04-29 00:39+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://"
+"translate.fedoraproject.org/projects/balistica/master/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11\n"
+
+#: src/BalisticaApplication.vala:114
+msgid "Drag"
+msgstr "拖曳"
+
+#: src/BalisticaApplication.vala:115
+msgid "Twist"
+msgstr "扭轉"
+
+#: src/BalisticaApplication.vala:116
+msgid "Stability"
+msgstr "穩定性"
+
+#. The user may have already created the directory, so don't throw EXISTS.
+#: src/BalisticaApplication.vala:132
+msgid "Failed to create XDG directory "
+msgstr "建立 XDG 目錄失敗 "
+
+#: src/BalisticaApplication.vala:181
+msgid "Error showing help"
+msgstr "錯誤顯示說明"
+
+#: src/BalisticaApplication.vala:201
+msgid "An open source external ballistics calculator."
+msgstr "開放原始碼的外部彈道計算器。"
+
+#: src/BalisticaApplication.vala:202
+msgid "Copyright © 2012-2018 Steven Oliver"
+msgstr "版權所有 © 2012-2018 Steven Oliver"
+
+#: src/DragBox.vala:123
+msgid "Range"
+msgstr "範圍"
+
+#: src/DragBox.vala:124
+msgid "Drop Inches"
+msgstr "下降(英吋)"
+
+#: src/DragBox.vala:125
+msgid "Drop MOA"
+msgstr "下降(MOA)"
+
+#: src/DragBox.vala:126
+msgid "Velocity"
+msgstr "速度"
+
+#: src/DragBox.vala:127
+msgid "Energy"
+msgstr "能源"
+
+#: src/DragBox.vala:128
+msgid "Drift"
+msgstr "漂移"
+
+#: src/DragBox.vala:129
+msgid "Windage MOA"
+msgstr "風向 MOA"
+
+#: src/DragBox.vala:130
+msgid "Time"
+msgstr ""
+
+#. Name used to store the calculation
+#. Ballistic cofficient
+#. Initial velocity (ft/s)
+#. Sight height over bore (inches)
+#. Projectile weight (grains)
+#. Shooting Angle (degrees)
+#. Zero range of the rifle (yards)
+#. Wind speed (mph)
+#. Wind angle (0=headwind, 90=right-to-left, 180=tailwind, 270/-90=left-to-right)
+#. It doesn't make sense for any of the following variables
+#. to be zero
+#: src/DragBox.vala:230
+msgid "Drag Coefficient must be a positive value greater than 0"
+msgstr "阻力係數必須是大於 0 的正值"
+
+#: src/DragBox.vala:235
+msgid "Initial Velocity must be a positive value greater than 0"
+msgstr "初始速度必須是大於 0 的正值"
+
+#: src/DragBox.vala:240
+msgid "Sight Height over Bore must be a positive value greater than 0"
+msgstr "膛孔上的檢視高度必須是大於 0 的正值"
+
+#: src/DragBox.vala:245
+msgid "Projectile Weight must be a positive value greater than 0"
+msgstr "彈丸重量必須是大於 0 的正值"
+
+#: src/DragBox.vala:250
+msgid "Zero Range must be a positive value greater than 0"
+msgstr "零範圍必須是大於 0 的正值"
+
+#: src/DragBox.vala:280
+msgid "Error creating solution results"
+msgstr "建立解決方案結果出錯"
+
+#: src/DragBox.vala:312
+msgid "Cannot export an empty drag solution"
+msgstr "無法匯出空白的拖曳解決方案"
+
+#. Create a save as dialog
+#: src/DragBox.vala:317
+msgid "Save As"
+msgstr "另存新檔"
+
+#: src/DragBox.vala:320
+msgid "Cancel"
+msgstr ""
+
+#: src/DragBox.vala:322
+msgid "Save"
+msgstr ""
+
+#: src/DragBox.vala:355
+msgid "Failed to overwrite existing file"
+msgstr "覆寫現有檔案失敗"
+
+#: src/DragBox.vala:365
+msgid "Error selecting file to save as"
+msgstr "出錯時，選擇要儲存檔案為"
+
+#: src/DragBox.vala:380
+#, c-format
+msgid "<b>Drag Coefficient:</b> %.2f"
+msgstr "<b>拖曳係數：</b> %.2f"
+
+#: src/DragBox.vala:380
+#, c-format
+msgid "<b>Projectile Weight:</b> %.2f"
+msgstr "<b>彈丸重量：</b> %.2f"
+
+#: src/DragBox.vala:382
+#, c-format
+msgid "<b>Initial Velocity:</b> %.2f ft/s"
+msgstr "<b>初始速度：</b> %.2f 英尺/秒"
+
+#: src/DragBox.vala:382
+#, c-format
+msgid "<b>Zero Range:</b> %.2f yards"
+msgstr "<b>零範圍：</b>%.2f 碼"
+
+#: src/DragBox.vala:382
+#, c-format
+msgid "<b>Shooting Angle:</b> %.2f degress"
+msgstr "<b>射擊角度：</b> %.2f 度數"
+
+#: src/DragBox.vala:384
+#, c-format
+msgid "<b>Wind Velocity:</b> %.2f mph"
+msgstr "<b>風速：</b> %.2f mph"
+
+#: src/DragBox.vala:384
+#, c-format
+msgid "<b>Wind Direction:</b> %.2f degress"
+msgstr "<b>風向：</b> %.2f 度數"
+
+#: src/DragBox.vala:386
+#, c-format
+msgid "<b>Altitude:</b> %.2f ft"
+msgstr "<b>高度：</b> %.2f 英尺"
+
+#: src/DragBox.vala:386
+#, c-format
+msgid "<b>Barometer:</b> %2f in-Hg"
+msgstr "<b>氣壓計：</b>%2f in-Hg"
+
+#: src/DragBox.vala:386
+#, c-format
+msgid "<b>Temperature:</b> %2f F"
+msgstr "<b>溫度：</b> %2f F"
+
+#: src/DragBox.vala:386
+#, c-format
+msgid "<b>Relative Humidity:</b> %.2F%%"
+msgstr "<b>相對濕度：</b> %.2F%%"
+
+#: src/DragBox.vala:391
+msgid "<b>Range (yards)</b>"
+msgstr "<b>距離（碼）</b>"
+
+#: src/DragBox.vala:392
+msgid "<b>Drop (inches)</b>"
+msgstr "<b>下降（英寸）</b>"
+
+#: src/DragBox.vala:393
+msgid "<b>Drop (MOA)</b>"
+msgstr "<b>下降（MOA）</b>"
+
+#: src/DragBox.vala:394
+msgid "<b>Velocity (ft/s)</b>"
+msgstr "<b>速度（英尺/秒）</b>"
+
+#: src/DragBox.vala:395
+msgid "<b>Energy (ft-lb)</b>"
+msgstr "<b>能量 (英尺磅)</b>"
+
+#: src/DragBox.vala:396
+msgid "<b>Winddrift (inches)</b>"
+msgstr "<b>風速（英寸）</b>"
+
+#: src/DragBox.vala:397
+msgid "<b>Windage (MOA)</b>"
+msgstr "<b>風速 (MOA)</b>"
+
+#: src/DragBox.vala:398
+msgid "<b>Time (s)</b>"
+msgstr "<b>時間 (s)</b>"
+
+#: src/DragBox.vala:425
+msgid "Error creating HTML output"
+msgstr "建立 HTML 輸出時出錯"
+
+#: src/LogViewerDialog.vala:50
+msgid "Date/Time"
+msgstr "日期/時間"
+
+#: src/LogViewerDialog.vala:51
+msgid "Log Level"
+msgstr "記錄檔層級"
+
+#: src/LogViewerDialog.vala:52
+msgid "Message"
+msgstr "訊息"
+
+#: src/LogViewerDialog.vala:111
+msgid "Reading log file "
+msgstr "讀取記錄檔 "
+
+#: src/PbrDialog.vala:103
+msgid "Vital Zone size is required to calculate PBR"
+msgstr "計算 PBR 需要 重點目標區的大小"
+
+#: src/PbrDialog.vala:113
+#, c-format
+msgid "Near Zero: %.2f yards\n"
+msgstr "接近零：%.2f 碼\n"
+
+#: src/PbrDialog.vala:114
+#, c-format
+msgid "Far Zero: %.2f yards\n"
+msgstr "遠零：%.2f 碼\n"
+
+#: src/PbrDialog.vala:115
+#, c-format
+msgid "Minimum PBR: %.2f yards\n"
+msgstr "最小 PBR： %.2f 碼\n"
+
+#: src/PbrDialog.vala:116
+#, c-format
+msgid ""
+"Maximum PBR: %.2f yards\n"
+"\n"
+msgstr ""
+"最大 PBR：%.2f 碼\n"
+"\n"
+
+#: src/PbrDialog.vala:117
+#, c-format
+msgid "Sight-in at 100 yards: %.2f\" high"
+msgstr "以 100 碼處進行瞄準：%.2f\" 高"
+
+#: src/PreferencesWindow.vala:68
+msgid "Choose save location"
+msgstr "選擇儲存位置"
+
+#: src/PreferencesWindow.vala:70
+msgid "_Cancel"
+msgstr "取消(C_)"
+
+#: src/PreferencesWindow.vala:71
+msgid "_Select"
+msgstr "選擇(S_)"
+
+#: ui/drag.glade:64
+msgid "Name:"
+msgstr ""
+
+#: ui/drag.glade:104
+msgid "Solve"
+msgstr "解決"
+
+#: ui/drag.glade:120 ui/pbr.glade:53 ui/stability.glade:188 ui/twist.glade:330
+msgid "Reset"
+msgstr ""
+
+#: ui/drag.glade:133
+msgid "Example"
+msgstr "範例"
+
+#: ui/drag.glade:199
+msgid "Projectile Weight (grains)"
+msgstr "彈丸重量 (穀)"
+
+#: ui/drag.glade:280
+msgid ""
+"0 = headwind\n"
+"90 = right to left\n"
+"180 = tailwind\n"
+"270/-90 = left to right"
+msgstr ""
+"0 = 順風\n"
+"90 = 由右至左\n"
+"180 = 尾風\n"
+"270/-90 = 由左至右"
+
+#: ui/drag.glade:299 ui/pbr.glade:141
+msgid "Initial Velocity (ft/s)"
+msgstr "初始速度 (英尺/秒)"
+
+#: ui/drag.glade:311
+msgid "Zero Range (yards)"
+msgstr "零距離 (碼)"
+
+#: ui/drag.glade:323
+msgid "Sight Height Over Bore (in)"
+msgstr "膛孔上的檢視高度 (英吋)"
+
+#: ui/drag.glade:337
+msgid "Shooting Angle (deg)"
+msgstr "拍攝角度 (度)"
+
+#: ui/drag.glade:349
+msgid "Wind Velocity (mph)"
+msgstr "風速 (mph)"
+
+#: ui/drag.glade:361
+msgid "Wind Angle (0-360 deg)"
+msgstr "風向角度 (0-360 度)"
+
+#: ui/drag.glade:373 ui/pbr.glade:153
+msgid "Drag Coefficient"
+msgstr "阻力係數"
+
+#: ui/drag.glade:460
+msgid "Altitude (ft)"
+msgstr "高度 (英尺)"
+
+#: ui/drag.glade:472
+msgid "Temperature (F)"
+msgstr "溫度 (F)"
+
+#: ui/drag.glade:484
+msgid "Barometric Pressure (Hg)"
+msgstr "氣壓 (Hg)"
+
+#: ui/drag.glade:496
+msgid "Relative Humidity (%)"
+msgstr "相對濕度 (%)"
+
+#: ui/drag.glade:619 ui/pbr.glade:219
+msgid "Drag Function"
+msgstr "拖曳功能"
+
+#: ui/drag.glade:690
+msgid "Step Size"
+msgstr "步驟尺寸"
+
+#: ui/drag.glade:702
+msgid "Export Results"
+msgstr "匯出結果"
+
+#: ui/drag.glade:716
+msgid "Calculate PBR"
+msgstr "計算 PBR"
+
+#: ui/drag.glade:742
+msgid "Enable Atmospheric Corrections"
+msgstr "啟用大氣校正"
+
+#: ui/logviewer.glade:7
+msgid "Log Viewer"
+msgstr "記錄檔檢視器"
+
+#: ui/logviewer.glade:14
+msgid "Refresh"
+msgstr "刷新"
+
+#: ui/logviewer.glade:23
+msgid "Clear"
+msgstr "清除"
+
+#: ui/pbr.glade:34
+msgid "Point Blank Range (PBR)"
+msgstr "點擊射擊範圍 (PBR)"
+
+#: ui/pbr.glade:40 ui/stability.glade:213 ui/twist.glade:383
+msgid "Calculate"
+msgstr "計算"
+
+#: ui/pbr.glade:117
+msgid "Vital Zone Size (inches)"
+msgstr "重點目標區尺寸（英吋）"
+
+#: ui/pbr.glade:129
+msgid "Sight Height (inches)"
+msgstr "視線高度（英吋）"
+
+#: ui/preferences.glade:33 ui/menu.ui:7
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: ui/preferences.glade:54
+msgid "Directories"
+msgstr "目錄"
+
+#: ui/preferences.glade:70
+msgid "Save Directory"
+msgstr "儲存目錄"
+
+#: ui/preferences.glade:91
+msgid "Browse"
+msgstr "瀏覽"
+
+#: ui/stability.glade:107 ui/twist.glade:102 ui/twist.glade:249
+msgid "Diameter"
+msgstr "直徑"
+
+#: ui/stability.glade:119 ui/twist.glade:115 ui/twist.glade:261
+msgid "Length"
+msgstr "長度"
+
+#: ui/stability.glade:131 ui/twist.glade:273
+msgid "Mass"
+msgstr "質量"
+
+#: ui/stability.glade:143 ui/twist.glade:285
+msgid "Safe Value"
+msgstr "安全值"
+
+#: ui/stability.glade:162
+msgid "Miller Stability"
+msgstr "米勒穩定性"
+
+#: ui/twist.glade:127
+msgid "Specific Gravity"
+msgstr "比重"
+
+#: ui/twist.glade:169
+msgid "Greenhill Twist"
+msgstr "格林希爾扭曲"
+
+#: ui/twist.glade:303
+msgid "Miller Twist Rule"
+msgstr "米勒扭曲規則"
+
+#: ui/twist.glade:355
+msgid "Greenhill"
+msgstr "格林希爾"
+
+#: ui/twist.glade:369
+msgid "Miller"
+msgstr "米勒"
+
+#: ui/menu.ui:11
+msgid "View Log"
+msgstr "檢視記錄檔"
+
+#: ui/menu.ui:17
+msgid "Help"
+msgstr ""
+
+#: ui/menu.ui:22
+msgid "About"
+msgstr ""
+
+#: ui/menu.ui:26
+msgid "Quit"
+msgstr "離開"
+
+#: data/balistica.appdata.xml.in:7 data/balistica.desktop.in:8
+msgid "balistica"
+msgstr "彈道學"
+
+#: data/balistica.appdata.xml.in:8 data/balistica.desktop.in:4
+msgid "External ballistics software"
+msgstr "外部彈道軟體"
+
+#: data/balistica.appdata.xml.in:10
+msgid ""
+"balística is a basic ballistics calculator for the Gnome Desktop "
+"Environment. It provides the ability to calculate the standard drag "
+"functions (G1-G8) along with other minor ballistics related calculations "
+"like the Greenhill Formula and the Miller Twist Rule."
+msgstr ""
+"彈道學是 Gnome 桌面環境的基本彈道計算工具。它提供計算標準阻力函數 (G1-G8) "
+"以及其他次要彈道相關計算的能力，例如：格林希爾公式和米勒扭力規則。"
+
+#: data/balistica.appdata.xml.in:16
+msgid "balística’s features include:"
+msgstr "彈道學的功能包括:"
+
+#: data/balistica.appdata.xml.in:18
+msgid "Calculate a round's drag using the G1-G8 drag models"
+msgstr "使用 G1-G8 阻力模型計算一輪的阻力"
+
+#: data/balistica.appdata.xml.in:19
+msgid "Compute a bullet's twist rate using Greenhill or Miller"
+msgstr "使用格林希爾或米勒計算子彈的扭率"
+
+#: data/balistica.appdata.xml.in:20
+msgid "Compute a round's Point Blank Range (PBR)"
+msgstr "計算子彈的點射距離 (PBR)"
+
+#: data/balistica.desktop.in:3
+msgid "balística"
+msgstr "彈道學"
+
+#: data/balistica.desktop.in:6
+msgid "External ballistics calculator"
+msgstr "外部彈道計算器"
+
+#: data/balistica.desktop.in:7
+msgid "ballistics"
+msgstr "彈道學"
