@@ -7,8 +7,6 @@
 balística is a simple open source external ballistics calculator. It's 
 named after the Catalan word for "ballistics" in English. Enjoy!
 
-![balística](https://fusliero.github.io/balistica/img/drag_calculation.png)
-
 ## Minimum Requirements
 * vala >= 0.38.0
 * glib-2.0 >= 2.40.0
@@ -18,7 +16,7 @@ named after the Catalan word for "ballistics" in English. Enjoy!
 
 ### Ubuntu
 ```bash
-sudo apt-get install build-essential libgtk-3-dev vala ninja python3-pip
+sudo apt-get install build-essential itstool libgtk-3-dev vala ninja python3-pip
 sudo pip3 install meson-build
 ```
 

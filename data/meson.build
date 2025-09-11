@@ -1,8 +1,7 @@
 subdir('icons')
 
 # Desktop file
-i18n.merge_file ('desktop-file',
-                 input: 'balistica.desktop.in',
+i18n.merge_file (input: 'balistica.desktop.in',
                  output: 'balistica.desktop',
                  install: true,
                  install_dir: join_paths (datadir, 'applications'),
@@ -10,8 +9,7 @@ i18n.merge_file ('desktop-file',
                  type: 'desktop')
 
 # Appdata file
-i18n.merge_file ('appdata-file',
-                 input: 'balistica.appdata.xml.in',
+i18n.merge_file (input: 'balistica.appdata.xml.in',
                  output: 'balistica.appdata.xml',
                  install: true,
                  install_dir: join_paths (datadir, 'metainfo'),
